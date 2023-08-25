@@ -7,4 +7,5 @@
 |Date|Code Name|
 |--------|--------|
 |23-08-23|Hello World|
+|25-08-23|Practice Codes|
 
