@@ -1,5 +1,4 @@
 import petStore as pt
-
 def userLogin(role):
     print("\nLogin Page")
     print("_"*15)

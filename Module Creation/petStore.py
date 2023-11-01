@@ -32,8 +32,3 @@ class petStore:
             print("Common Name:",i["comName"])
             print("Age:",i["age"])
             print("Price:",i["price"])
-
-
-
-
-

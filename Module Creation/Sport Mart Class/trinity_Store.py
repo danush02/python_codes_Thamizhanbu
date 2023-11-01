@@ -13,6 +13,7 @@ for i in open("E:\Practice codes\python_codes_Thamizhanbu\Module Creation\Sport 
                 trinity_store.createInventory(line[0],line[1],line[2],line[3],line[4].strip())
 
 print("Welcome to the Trinity Store")
+
 while True:
     action=int(input("Select your required action:\n1.Create Order\n2.Display Order\n3.Display Inventory\n4.Exit\n"))
     if action==1:
@@ -46,4 +47,11 @@ while True:
     elif action==4:
          trinity_store.appendToFile("E:\Practice codes\python_codes_Thamizhanbu\Module Creation\Sport Mart Class\sportMart_OrderDetails.csv","E:\Practice codes\python_codes_Thamizhanbu\Module Creation\Sport Mart Class\sportMart_Inventory.csv")
          exit()
+
+
+# filname="Ord.csv"
+# createOrder(fileName)
+
+#def creatordr(fileName)
+#for i in open(fileName,"r+").readline()
     
